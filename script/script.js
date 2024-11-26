@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", jsonOnload);
 
 //fonction qui appele le chargement du json
 function jsonOnload() {
-  fetch("books.json")
+  fetch("./data/books.json")
     .then((response) => {
       return response.json(); // on converti la reponse en json
     })
